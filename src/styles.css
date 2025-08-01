@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.step-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.steps-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.list-header, .step-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.step-item {
+  align-items: center;
+}
+
+.step-item span {
+  flex: 1;
+}
+
+.step-item button {
+  background-color: #f44336;
+  padding: 5px 10px;
+}
+
+.step-item button:hover {
+  background-color: #d32f2f;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
